@@ -4,11 +4,12 @@
 }
 .top{
     background-color: #1F2937;
-    padding-left: 250px;
-    padding-right: 300px;
+    padding-left: 13%;
+    padding-right: 18%;
     padding-top: 30px;
     color: white;
 }
+
 .menu{
     display: flex;
     justify-content: space-between;
@@ -31,11 +32,24 @@
 .three{
     padding-right: 0px;
 }
+.intro{
+    display: flex;
+    margin-top: 11%;
+    justify-content: space-between;
+}
+.pageimage{
+   width: 55%;
+   height: 400px;
+   background-color: #717e91;
+   flex-basis: auto;
+   margin-bottom: 200px;
+   border-radius: 10px;
+   
+}
 .intropage{
-    margin-top: 150px;
     width: 450px;
     display: flex;
-    padding-bottom: 180px;
+    padding-bottom: 200px;
     display: flex;
     flex-direction: column;
 }
@@ -52,5 +66,49 @@
     border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
+}
+.mid{
+    padding-top: 3%;
+    display:flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right   : 5%;
+
+}
+.title{
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.mid-1{
+    display: flex;
+    margin: auto;
+    padding: auto;
+    justify-content:space-between;
+}
+.img1{
+    margin-right: 50px;
+    margin-left: 50px;
+    
+    border:5px solid #3882f6;
+    width: 250px;
+    height:250px;
+    border-radius: 10px;
+}
+.i{
+    display: flex;
+    flex-direction: column;
+}
+.text1{
+    margin-top: 10px;
+    width: 270px;
+    align-self: center;
+    font-size: 26px;
+    text-align: center;
+    font-weight: light;
+    color: #717e91;
 }
