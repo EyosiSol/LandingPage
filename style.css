@@ -4,8 +4,8 @@
 }
 .top{
     background-color: #1F2937;
-    padding-left: 13%;
-    padding-right: 18%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 30px;
     color: white;
 }
@@ -44,6 +44,7 @@
    flex-basis: auto;
    margin-bottom: 200px;
    border-radius: 10px;
+   margin-left: 3%;
    
 }
 .intropage{
