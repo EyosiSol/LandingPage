@@ -4,8 +4,12 @@
 }
 .top{
     background-color: #1F2937;
-    padding-left: 10%;
-    padding-right: 10%;
+    background-image: url(image/BACK-2.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center bottom;
+    padding-left: 12%;
+    padding-right: 12%;
     padding-top: 30px;
     color: white;
 }
@@ -13,49 +17,75 @@
 .menu{
     display: flex;
     justify-content: space-between;
-    
+    border-radius: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: -10%;
+    margin-right: -10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
 }
-.logo{
-    font-weight:bolder;
-    font-size: 24px;
+.logo > a > img{
+    width: 20%;
+    padding-left: 100px;
+}
+.logo > a {
+    text-decoration: none;
+    color: white;
 }
 .info{
+    padding-top: 40px;
     justify-content: flex-end;
 
 }
 .nav-li{
     color: white;
     padding:5px;
-    font-size: 20px;
+    font-size: 26px;
     text-decoration: none;
+}
+.nav-li:hover{
+    background-color: #09090a;
+
 }
 .three{
     padding-right: 0px;
 }
 .intro{
     display: flex;
-    margin-top: 11%;
+    margin-top: 2%;
+    padding-top: 9%;
     justify-content: space-between;
+
 }
 .pageimage{
-   width: 55%;
+   width: 48%;
    height: 400px;
    background-color: #717e91;
    flex-basis: auto;
    margin-bottom: 200px;
    border-radius: 10px;
    margin-left: 3%;
+   object-fit: contain;
    
 }
 .intropage{
     width: 450px;
     display: flex;
-    padding-bottom: 200px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
+    height: 450px;
+    background-color: #0d0416cb;
+    border-radius: 20px;
 }
 .pageintro{
     margin-bottom: 20px;
+    padding: 40px;
+}
+.pa {
+    margin-bottom: 30px;
 }
 .sign-1{
     background-color: #3882f6;
@@ -73,8 +103,8 @@
     padding-top: 3%;
     display:flex;
     flex-direction: column;
-    padding-left: 5%;
-    padding-right   : 5%;
+    padding-left: 3%;
+    padding-right: 1%;
 
 }
 .title{
@@ -94,11 +124,15 @@
 .img1{
     margin-right: 50px;
     margin-left: 50px;
-    
     border:5px solid #3882f6;
     width: 250px;
-    height:250px;
+    height:221px;
     border-radius: 10px;
+}
+.img1 > img{
+    width: 250px;
+    object-fit: contain;
+    border-radius: 5px;
 }
 .i{
     display: flex;
@@ -110,6 +144,77 @@
     align-self: center;
     font-size: 26px;
     text-align: center;
-    font-weight: light;
-    color: #717e91;
+    font-weight: lighter;
+    color: #09090a;
+}
+.quote{
+    margin-top:10%;
+    background-color: #e5e7eb;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    padding-left: 22%;
+    padding-right: 22%;
+    display: flex;
+    flex-direction: column;
+
+}
+.quote > p{
+        font-size: 42px;
+        text-align: justify;
+        font-style: italic;
+        font-weight: light;
+        color: #5f6979;
+
+}
+.quote > h4 {
+    font-size: 30px;
+    align-self: flex-end;
+    color: #394657;
+}
+.call{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin-left: 15%;
+    margin-right:15%;
+
+}
+.call1{
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 15%;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+.word > p{
+    font-weight: lighter;
+    font-size: 23px;
+}
+.word > h1{
+    font-size: 36px;
+}
+.sign > a {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+    border: 3px solid white;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    display: flex;
+    align-self: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.bottom{
+    background-color: #1F2937;
+    color:white;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
 }
